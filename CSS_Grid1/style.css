@@ -1,6 +1,13 @@
+.container {
+    display: grid;
+    grid-gap: 20px; /*A commonly used pattern with css grid*/
+    grid-template-columns: 1fr 1fr; /*fr values is highly used to make grids responsive*/
+}
+
+
 .zone {
     cursor:pointer;
-    display:inline-block;
+/*    display:inline-block;*/
     text-align: center;
     font-size:10em;
     border-radius:4px;
